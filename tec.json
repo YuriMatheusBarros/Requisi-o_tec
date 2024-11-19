@@ -1,0 +1,83 @@
+{
+    "tecnologias": [
+      {
+        "nome": "JavaScript",
+        "tipo": "Linguagem de Programação",
+        "categoria": "Frontend e Backend",
+        "descricao": "Uma linguagem de programação popular para desenvolvimento web.",
+        "popularidade": 98,
+        "ano_lancamento": 1995,
+        "criador": "Brendan Eich",
+        "bibliotecas_populares": [
+          {
+            "nome": "React",
+            "descricao": "Uma biblioteca JavaScript para construir interfaces de usuário.",
+            "ano_lancamento": 2013,
+            "desenvolvedor": "Facebook"
+          },
+          {
+            "nome": "Vue",
+            "descricao": "Um framework progressivo para construir interfaces de usuário.",
+            "ano_lancamento": 2014,
+            "desenvolvedor": "Evan You"
+          }
+        ]
+      },
+      {
+        "nome": "Python",
+        "tipo": "Linguagem de Programação",
+        "categoria": "Backend e Data Science",
+        "descricao": "Linguagem de programação de alto nível, versátil e popular em ciência de dados.",
+        "popularidade": 96,
+        "ano_lancamento": 1991,
+        "criador": "Guido van Rossum",
+        "bibliotecas_populares": [
+          {
+            "nome": "Django",
+            "descricao": "Um framework web de alto nível que incentiva o desenvolvimento rápido.",
+            "ano_lancamento": 2005,
+            "desenvolvedor": "Django Software Foundation"
+          },
+          {
+            "nome": "Pandas",
+            "descricao": "Uma biblioteca para análise de dados e manipulação de estruturas de dados.",
+            "ano_lancamento": 2008,
+            "desenvolvedor": "Wes McKinney"
+          }
+        ]
+      },
+      {
+        "nome": "Docker",
+        "tipo": "Ferramenta de Virtualização",
+        "categoria": "DevOps",
+        "descricao": "Uma plataforma para desenvolver, transportar e executar aplicações em containers.",
+        "popularidade": 90,
+        "ano_lancamento": 2013,
+        "criador": "Solomon Hykes",
+        "bibliotecas_populares": []
+      },
+      {
+        "nome": "Git",
+        "tipo": "Sistema de Controle de Versão",
+        "categoria": "DevOps",
+        "descricao": "Um sistema de controle de versão distribuído amplamente usado no desenvolvimento de software.",
+        "popularidade": 95,
+        "ano_lancamento": 2005,
+        "criador": "Linus Torvalds",
+        "bibliotecas_populares": [
+          {
+            "nome": "GitHub",
+            "descricao": "Uma plataforma de hospedagem para controle de versão e colaboração.",
+            "ano_lancamento": 2008,
+            "desenvolvedor": "GitHub, Inc."
+          },
+          {
+            "nome": "GitLab",
+            "descricao": "Uma plataforma de DevOps que permite controle de versão e CI/CD.",
+            "ano_lancamento": 2011,
+            "desenvolvedor": "GitLab Inc."
+          }
+        ]
+      }
+    ]
+  }
