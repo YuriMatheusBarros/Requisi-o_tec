@@ -20,7 +20,15 @@ tec.onload = function () {
         htmlContent += `<p>Popularidade: ${dev[i].popularidade}</p>`;
         htmlContent += `<p>Ano de Lançamento: ${dev[i].ano_lancamento}</p>`;
         htmlContent += `<p>Criador: ${dev[i].criador}</p>`;
+        
+        dev[i].bibliotecas_populares?.forEach(bibliotecas => {       
+            htmlContent += `<h4>Biblioteca Popular:</h4>`;
+            htmlContent += `<p>Nome: ${bibliotecas.nome}</p>`;
+            htmlContent += `<p>Descricao: ${bibliotecas.descrição}</p>`;
+            htmlContent += `<p>Ano de lançamento: ${bibliotecas.ano_lancamento}</p>`;
+            htmlContent += `<p>Desenvolvedor: ${bibliotecas.desenvolvedor}</p>`  
+        });
+        htmlContent += `<hr>`
     }
-
     conteudoDIv.innerHTML = htmlContent;
 };
